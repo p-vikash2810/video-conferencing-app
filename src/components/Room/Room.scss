@@ -1,0 +1,57 @@
+.roomSec {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+  .room-body {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .radio-button-section {
+    width: inherit;
+
+    min-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #6c757d;
+    padding: 20px;
+  }
+
+  .media-control-section {
+      width: 80px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+
+  .input-section {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .resolution-section {
+          width: inherit;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+      }
+  }
+  
+
+  .buttons-section {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+}
